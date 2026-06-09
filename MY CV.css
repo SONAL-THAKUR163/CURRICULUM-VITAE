@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+    line-height: 1.5;
+}
+
+a {
+    color: #0ef;
+    text-decoration: none;
+}
+
+
+.cv-container {
+    width: 210mm; 
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #0ef;
+}
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #0ef;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: #0ef;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+header nav {
+    font-size: 0.85em;
+    margin-bottom: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.section {
+    padding: 15px 0;
+}
+
+.section h2 {
+    color: #0ef;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: left;
+    border-bottom: 1px solid #0ef;
+    padding-bottom: 3px;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.skill-bar {
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-bar div {
+    height: 15px;
+    background: #0ef;
+    border-radius: 10px;
+}
+
+.timeline {
+    margin-left: 10px;
+}
+
+.timeline-item {
+    padding: 10px 0;
+    border-left: 3px solid #0ef;
+    margin-left: 10px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #0ef;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 5px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+}
+
+.project-card {
+    background: #111;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 10px #0ef;
+    transform: translateY(-3px);
+}
+
+#contact p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+    color: #aaa;
+    border-top: 1px solid #0ef;
+}
