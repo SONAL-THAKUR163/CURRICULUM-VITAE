@@ -1,5 +1,5 @@
 
-# 💼 sonal-cv.netlify.app – Interactive Online Resume
+# 💼 https://sonal-cv.netlify.app – Interactive Online Resume
 A sleek online CV showcasing my **skills, projects, education, and professional experience** in a clean and easy-to-navigate format.
 
 ## Built With
